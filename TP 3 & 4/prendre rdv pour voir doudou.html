@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doudou la girafe</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerparent">
+            <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 24 24" fill="none"
+                stroke="#fdfcf9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z">
+                </path>
+            </svg>
+            <div class="headerenfant">
+                <h1>La vie de doudou la girafe</h1>
+            </div>
+            <div>
+                <b><a class="acceuil" href="index.html">Acceuil</a></b>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="h2">
+            <h2>
+                Prendre rendez-vous pour voir doudou la girafe <span class="emoji">&#129426</span>
+            </h2>
+        </div>
+        <div class="main">
+            <form action="#">
+                <label>
+                    Nom
+                    <input type="text" name="nom" required placeholder="Entrez votre nom">
+                </label>
+                <label>
+                    Prénom
+                    <input type="text" name="prenom" required placeholder="Entrez votre prénom">
+                </label>
+                <label>
+                    Date de naissance
+                    <input type="date" name="naissance" required>
+                </label>
+                <label>
+                    Mail
+                    <input type="email" name="email" required placeholder="prenom.nom@uha.fr"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                </label>
+                <label>
+                    Date voulu du rendez-vous
+                    <input type="date" name="naissance" required>
+                </label>
+                <hr>
+                <!-- Animal -->
+                <p>Avez-vous un animal ?</p>
+                <label>
+                    <input type="checkbox" name="chien" value="oui">
+                    <span>chien</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="chat" value="oui">
+                    <span>chat</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="hamster" value="oui">
+                    <span>hamster</span>
+                </label>
+                <hr>
+                <!-- Provencance -->
+                <p>D'où venez-vous ?</p>
+                <label>
+                    <input type="radio" name="lieu" value="France" required>
+                    <span>France</span>
+                </label>
+                <label>
+                    <input type="radio" name="lieu" value="Suisse" required>
+                    <span>Suisse</span>
+                </label>
+                <label>
+                    <input type="radio" name="lieu" value="Belgique" required>
+                    <span>Belgique</span>
+                </label>
+                <hr>
+                <!-- Fratrie -->
+                <label>
+                    Combien de frères / soeurs ?
+                    <input type="number" name="fratrie" min=0 max=20 value=0>
+                </label>
+                <hr>
+                <!-- Envoyer -->
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+        <div class="bigbox">
+            <div class="box">
+                <h1 class="sommaire">Sommaire</h1>
+                <ul>
+                    <li class="li">
+                        <a class="sommaire1" href="famille de doudou.html">La famille de doudou la girafe</a>
+                    </li>
+                    <li class="li">
+                        <a class="sommaire1" href="activité de doudou.html">Les activités de doudou la girafe</a>
+                    </li>
+                    <li class="li">
+                        <a class="sommaire1" href="comment écrire à doudou.html">Comment écrire à doudou la girafe ?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
